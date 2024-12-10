@@ -1,0 +1,224 @@
+/*Общие настройки и сброс стилей*/
+
+body {
+  margin: 0;
+  background-color: gray;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+}
+
+/*Общие настройки для контейнеров*/
+
+.content-section {
+  width: 360px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.header,
+.header__menu-list,
+.intro__heading,
+.content-section__list,
+.cards-list,
+.footer,
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu-list,
+.content-section__list,
+.cards-list {
+  flex-direction: column;
+}
+
+/*Общие настройки для списков*/
+
+.header__menu-list,
+.cards-list,
+.footer__links {
+  list-style: none;
+}
+
+.header__menu-item_active a,
+.footer__links-link {
+  text-decoration: none;
+}
+
+.header__menu-link,
+.footer__links-link {
+  color: #f5f5f5;
+}
+
+/*Настройки секции header*/
+
+.header {
+  height: 132px;
+  padding: 24px 20px 30px;
+}
+
+.header__menu-list {
+  height: 100%;
+}
+
+.header__logo-image {
+  width: 78.45px;
+  height: 15.43px;
+}
+
+/*Настройки секции cover*/
+
+.cover {
+  height: 221px;
+  background-image: url("../images/cover.svg");
+  background-repeat: no-repeat;
+  background-size: 339px 198px;
+  background-position: bottom right;
+  padding: 5px 20px;
+  font-family: "EB Garamond regular", serif;
+  color: #ffffff;
+}
+
+.cover__title {
+  line-height: 72px;
+  font-size: 72px;
+  font-weight: 100;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/*Настройки секции intro*/
+
+.intro {
+  padding: 35px 20px;
+}
+
+.intro__title {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.intro__main-text p {
+  margin-top: 25px;
+}
+
+/*Настройки секции reasons*/
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  font-family: "EB Garamond medium", serif;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.content-section__introduction {
+  margin: 35px 0;
+  font-size: 20px;
+}
+
+.content-section__list {
+  padding-left: 20px;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.content-section__list-accent {
+  font-weight: bold;
+}
+
+/*Настройки секции how-to*/
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.cards-list {
+  padding: 0;
+  gap: 35px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.card__title {
+  font-family: "EB Garamond medium";
+  font-size: 22px;
+  font-weight: 100;
+  margin: 10px 0;
+}
+
+/*Настройки секции footer*/
+
+.footer {
+  height: 62px;
+  padding: 20px;
+  border-top: 1px solid #fee42a;
+}
+
+.footer__links {
+  gap: 20px;
+}
+
+
