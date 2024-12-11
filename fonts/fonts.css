@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'EB Garamond regular';
+  font-family: 'EB Garamond';
   src: local('ebgaramondregular'), url('../fonts/ebgaramondregular.woff2') format('woff2'),
     url('../fonts/ebgaramondregular.woff') format('woff'),
     url('../fonts/ebgaramondregular.ttf') format('truetype');
+    font-weight: 400;
 }
 
 @font-face {
-  font-family: 'EB Garamond medium';
+  font-family: 'EB Garamond';
   src: local('ebgaramondmedium'), url('../fonts/ebgaramondmedium.woff2') format('woff2'),
     url('../fonts/ebgaramondmedium.woff') format('woff'),
     url('../fonts/ebgaramondmedium.ttf') format('truetype');
+    font-weight: 500;
 }
-
-/*Немного другой способ указания шрифтов: одно имя, но разные font-weight для 400 и для 700*/
 
 @font-face {
   font-family: 'Inter';
